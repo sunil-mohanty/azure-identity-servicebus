@@ -169,7 +169,7 @@ Clone this code base<br>
 Open the application.properties file. Put the value of <b>CLIENT_ID</b> from <b>NOTE 01</b> and <b>TENAT_ID</b> from <b>NOTE 02</b> that we have captured in the above steps.<br>
 
 The value of QUEUE_URI is the combination of Host name from <b>NOTE 01</b> and the queue name that you have given [refer NOTE 04]<br><br>
-if your namesapce id  "abc" and queue name is xyz, then</br><br>
+if your namespace id  "abc" and queue name is xyz, then</br><br>
 Host name will be : <b>https://abc.servicebus.windows.net</b><br>
 QUEUE_URI will be : <b>https://event-demo.servicebus.windows.net/transactions/messages</b>
 </p>
