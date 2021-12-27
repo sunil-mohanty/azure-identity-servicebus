@@ -1,4 +1,6 @@
-##MICROSOFT IDENTITY PLATFORM AND DEVICE AUTHORIZATION FLOW TO USE AZURE SERVICE BUS##
+<p style="font-family: times, serif; font-size:18pt;  color:black">
+MICROSOFT IDENTITY PLATFORM AND DEVICE AUTHORIZATION FLOW TO USE AZURE SERVICE BUS
+</p>	
 
 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
