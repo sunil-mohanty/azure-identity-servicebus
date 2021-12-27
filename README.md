@@ -3,7 +3,7 @@
 
 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
-Microsoft Identity platform allows users to sign in to input-constrained devices. It leverages MASL for Java (MSAL4J) from an app that does not have the capability of offering an interactive authentication experience. The user visit a web page in their browser to login in. Once login success, the device will able to get access tokens and able to perform actions on the authorized Azure resources. This article demonstrates : <br>
+Microsoft Identity platform allows users to sign in to input-constrained devices. It leverages MASL for Java (MSAL4J) from an app that does not have the capability of offering an interactive authentication experience. The user visit a web page in their browser to login in. Once login success, the device will able to get access tokens and able to perform actions on the authorized Azure resources. This article demonstrates:<br>
 </p>
 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
