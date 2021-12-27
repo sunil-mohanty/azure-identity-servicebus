@@ -188,7 +188,7 @@ A jar file named azure-identity-servicebus-1.0.jar will be generated in the targ
 The above command will give the response like below: 
 </p>
 <p style="font-family: times, serif; font-size:14pt;  color:black">
-INFO com.ski.identity.servicebus.ServiceBusManager - To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code CGTEMEDQH to authenticate.
+INFO com.ski.identity.servicebus.ServiceBusManager - To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code YOURCODE to authenticate.
 </p>
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 Now use the url(https://microsoft.com/devicelogin) and the code from the above response on a browser. It will ask for the user authentication.
