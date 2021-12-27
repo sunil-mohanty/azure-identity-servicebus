@@ -1,8 +1,9 @@
-##MICROSOFT IDENTITY PLATFORM AND DEVICE AUTHORIZATION FLOW TO USE AZURE SERVICE BUS##
+## MICROSOFT IDENTITY PLATFORM AND DEVICE AUTHORIZATION FLOW TO USE AZURE SERVICE BUS
+	
 
 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
-Microsoft Identity platform allows users to sign in to input-constrained devices. It leverages MASL for Java (MSAL4J) from an app that does not have the capability of offering an interactive authentication experience. The user visit a web page in their browser to login in. Once login success, the device will able to get access tokens and able to perform actions on the authorized Azure resources. This article demonstrates : <br>
+Microsoft Identity platform allows users to sign in to input-constrained devices. It leverages MASL for Java (MSAL4J) from an app that does not have the capability of offering an interactive authentication experience. The user visit a web page in their browser to login in. Once login success, the device will able to get access tokens and able to perform actions on the authorized Azure resources. This article demonstrates:<br>
 </p>
 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
@@ -37,7 +38,7 @@ Now click on register . It will take few seconds to finish your app registration
 
 <br><br>
 
-#####APP CLIENT ID :
+##### APP CLIENT ID :
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 Now go to  Azure Home —> Azure Active Directory —> App Registrations. Then under all applications you can find your application[ad-profile] created in the above step.<br><br>
 <b>NOTE 01</b> -Copy the client ID from this screen and keep it for future use. This is required to configure in the code.
@@ -48,7 +49,7 @@ Now go to  Azure Home —> Azure Active Directory —> App Registrations. Then u
 
 <br><br>
 
-#####APP MANIFEST :
+##### APP MANIFEST :
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 From the app registration screen , click on the manifest section and in the editor set the allowPublicClient <b>true</b>. 
 Then click on save 
@@ -59,7 +60,7 @@ Then click on save
 
 <br><br>
 
-#####AUTHENTICATION : 
+##### AUTHENTICATION : 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 Now click on the authentication section of the App registration screen. Select “Mobile and desktop application” under “Configure platforms”
 
@@ -75,7 +76,7 @@ Now select the checkbox [https://login.microsoftonline.com/common/oauth2/nativec
 
 <br><br>
 
-#####API PERMISSION :
+##### API PERMISSION :
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 From the App’s registration screen go to the API permission section and add access to the Apis that our application needs.
 </p>
@@ -93,8 +94,9 @@ Click on Microsoft.ServiceBus then select user_impersonation and then click on t
 ![8-new-reg-api-permission.png](./ReadmeFiles/8-new-reg-api-permission.png)
 
 <br><br>
+</p>
 
-#####TENANT ID :
+#### TENANT ID :
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 From Azure home click on “Azure Active Directory” icon. Then click on the overview tab.<br><br>
 <b>NOTE 02</b> - Record the Tenant Id, which will be used further in the code. Refer the below screenshot.
@@ -146,7 +148,7 @@ You see the home page for your service bus namespace.<br><br>
 
 <br><br><br>
 
-#####CREATING QUEUE IN THE PORTAL :
+##### CREATING QUEUE IN THE PORTAL :
 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 1. On the Service Bus Namespace page, select Queues in the left navigation menu.<br>
