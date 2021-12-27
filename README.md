@@ -79,11 +79,10 @@ Now select the checkbox [https://login.microsoftonline.com/common/oauth2/nativec
 ##### API PERMISSION :
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 From the App’s registration screen go to the API permission section and add access to the Apis that our application needs.
-</p>
+
+
 ![6-new-reg-api-permision.png](./ReadmeFiles/6-new-reg-api-permision.png)
-
-
-<br>
+</p><br>
 
 <p style="font-family: times, serif; font-size:14pt;  color:black">
 In our case we need  Microsoft ServiceBus to publish message to the queue.<br>
